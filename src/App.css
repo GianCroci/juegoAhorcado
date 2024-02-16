@@ -36,3 +36,80 @@
     transform: rotate(360deg);
   }
 }
+.palabra{
+  display: flex;
+  justify-content: center;
+  text-align: center;  
+  font-size: 1.8em;
+}
+.vacio{
+  width: 35px;
+  height: 40px;
+  margin: 8px;
+  border-bottom: 1px solid #000;
+}
+.noVacio{
+  width: 35px;
+  height: 40px;
+  margin-top: 18px;
+  
+}
+.juego{
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+.botones{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 25px;
+}
+.botones button{
+  font-size: 1.5em;
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+  border: 1px dashed #000;
+  margin: 7px;
+  text-align: center;
+  border-radius: 5px;
+  
+}
+.gameOver{
+  text-align: center;
+  font-size: 2em;
+}
+.gameOver button{
+  font-size: 1em;
+  padding: 10px;
+  border-radius: 5px;
+}
+.gameOver p{
+  width: 60%;
+  margin: auto;
+}
+.ganoContainer{
+  text-align: center;
+  font-size: 2em;
+}
+.ganoContainer button{
+  font-size: 1em;
+  padding: 10px;
+  border-radius: 5px;
+}
+.inicio{
+  text-align: center;
+  margin-top: 100px;
+  font-size: 2em;
+}
+.inicio p{
+  margin: 30px 0;
+}
+.inicio button{
+  font-size: 1em;
+  padding: 10px;
+  border-radius: 5px;
+}
