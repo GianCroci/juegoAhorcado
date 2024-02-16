@@ -37,7 +37,7 @@ const Juego = () => {
     setMisLetras([...misLetras, letra])
     if(palabra.indexOf(letra)===-1){
       setErradas([...erradas, letra])
-      setPosibilidades((posibilidades<=5)
+      setPosibilidades((posibilidades<5)
       ?posibilidades+1
       :5)
     }else{
