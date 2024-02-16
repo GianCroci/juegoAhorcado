@@ -44,7 +44,7 @@ const Juego = () => {
       setCorrectas([...correctas, letra])
       setLetrasAcertadas(letrasAcertadas+1)
     }
-    if(posibilidades===4){
+    if(posibilidades===5){
       navegacion("/perdio")
     }
   }
